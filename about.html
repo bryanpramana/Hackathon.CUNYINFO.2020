@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="display.css">
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #000080;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: #000080;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #000080;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #000080;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #000080;
+  border-top: none;
+}
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html"><img src="CUNYlogo.png" alt="logo" style="width:100px; height:35px ;"/></a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="about.html">About</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Freshman <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="enroll.html">Enrollment</a></li>
+            <li><a href="#">Finance</a></li>
+            <li><a href="https://ssologin.cuny.edu/cuny.html?resource_url=https%3A%2F%2Fdegreeworks.cuny.edu%252F" target="_blank">Degreeworks</a></li>
+          </ul>
+        </li>
+      
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Transfer Students<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Registration</a></li>
+            <li><a href="#">Enrollment</a></li>
+            <li><a href="#">Finance</a></li>
+            <li><a href="https://ssologin.cuny.edu/cuny.html?resource_url=https%3A%2F%2Fdegreeworks.cuny.edu%252F" target="_blank">Degreeworks</a></li>          
+          </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Seniors<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Graduation</a></li>
+            <li><a href="#">Finance</a></li>
+            <li><a href="https://ssologin.cuny.edu/cuny.html?resource_url=https%3A%2F%2Fdegreeworks.cuny.edu%252F" target="_blank">Degreeworks</a></li>
+          </ul>
+        </li>
+     </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="login_form2.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+      <form class="navbar-form navbar-left" action="/action_page.php">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search" name="search">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </nav>
+    
+
+  <div class="container-fluid bg-light text-dark">
+    <h1>About</h1>
+    <p>Home>>About</p>
+    <p></p>
+    <div class="row">
+        <div class="col-sm-4 col-md-6 col-lg-4" style="background-color:white;">
+            <p>
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">Action item</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Mission</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">History</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">College&Schools</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Centers&Institutes</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Alumni, Students & Faculty</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Trustees</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Administration</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">University Resources</a>
+                  </div>
+
+            </p>
+          </div>
+          <div class="col-sm-5 col-md-6 col-lg-4" style="background-color:white;">
+            <p><img src="about.jpg" style="height: 100%; width: 100%;">
+                <p>
+                    Every year, hundreds of thousands of students – including a record 275,000 degree-credit students – choose The City University of New York for a multitude of reasons that can be summed up as one: opportunity. Providing a quality, accessible education, regardless of background or means, has been CUNY’s mission since 1847.
+
+The University’s unwavering commitment to that principle is a source of enormous pride. CUNY colleges offer a seemingly infinite array of academic programs taught by award-winning faculty, as well as sports, internships, scholarships and community service opportunities found on campuses throughout New York City’s five boroughs. CUNY’s combination of quality academics, remarkable affordability, financial support and the convenience of 25 modern campuses offers a remarkable educational experience.
+
+CUNY has a legislatively mandated mission to be “of vital importance as a vehicle for the upward mobility of the disadvantaged in the City of New York … [to] remain responsive to the needs of its urban setting … [while ensuring] equal access and opportunity” to students, faculty and staff “from all ethnic and racial groups” and without regard to gender.
+                </p>
+            
+            </p>
+          </div>
+          <div class="col-sm-4 col-md-6 col-lg-4" style="background-color:white;">
+            <h1 style="background-color:pink;color: white;width: 100%;height: 100%;">Welcome</h1>
+            <p><img src="about2.jpg" style="height: 100%; width: 100%;">
+                Chancellor Félix V. Matos Rodríguez
+                On May 1, 2019, Félix V. Matos Rodríguez took office as the eighth Chancellor of the City University of New York (CUNY). With his appointment, Matos Rodríguez made history by becoming the first educator of color, and the first Latino, selected as CUNY’s Chancellor.
+            
+            </p>
+          </div>
+    </div>
+  </div>
